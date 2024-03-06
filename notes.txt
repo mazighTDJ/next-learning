@@ -5,7 +5,7 @@ npx create-next-app@latest: pour creer une app next
 
 il existe une conventions de fichiers sur next. =>
 {
-    layout :	UI partagée entre les pages.
+    layout :	UI partagée entre les pages. ( est necessaire que quand on a besoin de creer un layout specifique au composant)
     page:	UI unique d'un itinéraire et rendre les itinéraires accessibles au public
     loading :	Chargement de l'interface utilisateur pour un segment et ses enfants
     not-found:	Interface utilisateur introuvable pour un segment et ses enfants
@@ -22,4 +22,9 @@ il existe une conventions de fichiers sur next. =>
 - Link est utiliser pour la nivagation entre pages
 
 -server components: statique ou dynamique 
+- les routes dynamique doivent etre creer a l'interieur d'un dossier nommer entre deux crochet ( [slug])
 - client components: ajouter la directive "use client"
+
+
+-utilisation de la bibliotheque shadecn : a l'installation de cette librairies, un nouveau dossier" components" sera creer et il contiendra tous les composant installer depuis la commande : npx shadcn-ui@latest add "nomdu composant souhaiter"
+-utilisation de "lucide" pour les icons
