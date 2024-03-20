@@ -23,8 +23,9 @@ il existe une conventions de fichiers sur next. =>
 
 -server components: statique ou dynamique 
 - les routes dynamique doivent etre creer a l'interieur d'un dossier nommer entre deux crochet ( [slug])
-- client components: ajouter la directive "use client"
+- client components: ajouter la directive "use client", quand on a une interaction avec le client.  
 
 
 -utilisation de la bibliotheque shadecn : a l'installation de cette librairies, un nouveau dossier" components" sera creer et il contiendra tous les composant installer depuis la commande : npx shadcn-ui@latest add "nomdu composant souhaiter"
 -utilisation de "lucide" pour les icons
+-gestion des themes: npm i next-themes

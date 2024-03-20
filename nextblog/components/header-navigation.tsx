@@ -22,7 +22,7 @@ import { Category } from "@/type"
 
 export function HeaderNavigation() {
     return (
-        <NavigationMenu className="md:hidden"> 
+        <NavigationMenu > 
             <NavigationMenuList>
                 <NavigationMenuItem>
                     <NavigationMenuTrigger>Categories</NavigationMenuTrigger>
